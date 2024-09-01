@@ -6,14 +6,14 @@
     <title>Portifólio Pessoal (CV on line)</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: Arial, sans-serif; /* Fonte padrão de definição do corpo do texto */
             background-color: #f0f8ff; /* Cor de fundo suave */
             color: #333;
             margin: 0;
             padding: 0;
         }
         header {
-            text-align: center;
+            text-align: center;/* Centraliza o texto */
             padding: 20px;
             background-color: #4682b4; /* Cor do cabeçalho */
             color: white;
@@ -36,22 +36,22 @@
             padding: 20px;
         }
         .container {
-            max-width: 800px;
-            margin: 0 auto;
-            text-align: justify;
+            max-width: 800px;/* Largura máxima do conteúdo */
+            margin: 0 auto;/* Centralizar o conteúdo */
+            text-align: justify;/* Justificar o texto */
         }
         .photo {
             text-align: center;
             margin-bottom: 20px;
         }
         .photo img {
-            border-radius: 50%;
+            border-radius: 50%; /* Deixar a imagem redonda */
             width: 300px;
             height: 290px;
         }
         form {
             display: flex;
-            flex-direction: column;
+            flex-direction: column; /* Alinhar os elementos verticalmente */
         }
         form input, form textarea {
             margin-bottom: 10px;
@@ -85,14 +85,14 @@
         <h2>Meu portifólio Pessoal</h2>
     </header>
     <nav>
-        <a href="#sobre-mim">Sobre mim</a>
+        <a href="#sobre-mim">Sobre mim</a> 
         <a href="#formacao">Formação</a>
         <a href="#portfolio">Portfólio</a>
         <a href="#contato">Contato</a>
     </nav>
     <section id="sobre-mim" class="container">
         <div class="photo">
-            <img src="Imagens/EU3.jpg" alt="Foto Pessoal">
+            <img src="Imagens/Img.jpg" alt="Foto Pessoal">
         </div>
         <h2>Sobre mim</h2>
         <p>Olá! Sou estudante de TI, atualmente fazendo Análise e Desenvolvimento de Sistemas na UNINTER, sou um Desenvolvedor Web (Back-end) apaixonado por criar soluções digitais inovadoras e funcionais. Na Uninter estou tendo uma sólida formação técnica, aliada a atividades práticas em diversas tecnologias, como Python, HTML, CSS, JavaScript e frameworks modernos, estou sempre em busca de novos desafios que me permitam crescer e aprimorar minhas habilidades, realizando cursos e bootcamps fora da grade curricular para me manter atualizado com as tendências do mercado. <br><br>
@@ -122,7 +122,7 @@
     <section id="portfolio" class="container">
         <h2>Portfólio</h2>
         <p>Sou um entusiasta em assuntos de segurança de dados e de sistemas e com isso estou sempre em busca de novos conhecimentos e desafios. Abaixo apresento imagens de um dos projetos que estou desenvolvendo durante minha formação acadêmica e profissional. <br><br>
-            <strong>Projeto 1: Segurança de Dados e Sistemas <a href="https://github.com/Rodrigo-TL">GitHub</a></strong> <br>
+            <strong>Projeto 1: Segurança de Dados e Sistemas <a href="https://rodrigo-tl.github.io/segurancadedadosesistemas/">GitHub</a></strong> <br>
             <div class="photo"></div>
                 <img src="Imagens/site_1.jpg" alt="Segurança de Dados" style="max-width: 50%; height: auto; float: left;">
                 <img src="Imagens/site_3.jpg" alt="Segurança de Dados" style="max-width: 50%; height: auto; float: left;">
@@ -165,9 +165,9 @@
                 * <u>Testes e Depuração</u>: Criação de testes automatizados e habilidades de depuração para garantir a qualidade do código.
             </p>
     </section>
-    <section id="contato" class="container">
+    <section id="contato" class="container">   
         <h2>Contato</h2>
-        <form action="envia-contato.php" method="post">
+        <form action="envia-contato.php" method="post"> 
             <input type="text" name="nome" placeholder="Nome" required>
             <input type="email" name="email" placeholder="Email" required>
             <textarea name="mensagem" placeholder="Mensagem" rows="5" required></textarea>
